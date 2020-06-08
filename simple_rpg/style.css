@@ -1,0 +1,22 @@
+body{
+    text-align: center; 
+   
+}
+table{
+    width: 70%;
+    margin: auto;
+    font-size: 1.3em;
+    border: 4px double #ADA8A7;
+    background-color:#F7EEEB;
+    
+}
+
+td{
+    border-bottom: 5px solid #746A69;
+    padding: 5px;
+}
+
+th{
+    border: 2px dotted #746A69;
+    color:524746;
+}

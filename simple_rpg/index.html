@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+ <html>
+    <head>
+        <meta charset="utf-8">
+        <title>Hello JavaScript</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="http://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="topic.js"></script>
+        <script src="main.js"></script>
+
+    </head>
+    <body>    
+        <h1>成功之星 ~ 專題講座</h1>
+        <table id="courseTable"></table>   
+        <br><input id="inputDate" type="date"><hr>         
+        <h4>講座網路預約</h4>
+            
+            <form method="POST" action="msilto:shuqian.lin@msa.hinet.net">
+                姓名：<input type name="t1" size="20"><br/><p></p>
+                性別：<input type="radio" name="v1" value="r1">男性<input type="radio" name="v2" value="r2">女性<br/><p></p>
+                日期：<input id="inputDate1" type="date"> <br/><p></p>
+                電話: <input type="text" name=tel size=20 value=""><br><p></p>
+                電子郵件：<input type="text" name=email size=20 value=""><br><p></p>
+                <input type="reset" VALUE="清除">
+                <input type="submit" VALUE="送出" onClick="validateForm(this.form)">
+            
+        
+                <h4>講座地點</h4>
+                    查看地圖:<select name="mySelect">
+                    <option value="Taipai">台北市松山區光復北路 大樓11巷46號 財經年代大樓</option>
+                    <option value="Taoyuan">桃園市中壢區青埔路五街75號 佳瑞盈大樓</option>
+                    <option value="Taichung">台中市西屯區中工二路190號 世貿資訊大樓</option>
+            </select><p></p></form>        
+            <ul><li id="google_map"></li></ul>  
+        </body>
+</html>

@@ -1,0 +1,29 @@
+﻿
+
+#panel {
+  width: 400px;
+}
+  
+#panel dt {
+  background-color: #746A69;
+  cursor: pointer;
+  color: White;
+  padding: 4px;
+  text-align: center;
+}
+
+#panel dd {
+  border: solid 1px #746A69;
+  margin: 0px;
+  padding: 10px;
+}
+body{
+  background : #FCEEE2;
+  text-align: center;
+}
+#nav ul {
+  display: inline-block;
+}
+dl{
+  text-align: left;
+}
